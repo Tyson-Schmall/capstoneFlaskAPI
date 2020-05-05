@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "a8f341c977459c7429e856eda7cb4847e0de4f502cfe950ce6d4dc0703dbbef5"
+            "sha256": "abb14c852ad85d29b2d4023481809a6ffa4f4a67e6939fd940dbe292a97ae442"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -22,14 +22,6 @@
                 "sha256:dacca89f4bfadd5de3d7489b7c8a566eee0d3676333fbb50030263894c38c0dc"
             ],
             "version": "==7.1.2"
-        },
-        "environs": {
-            "hashes": [
-                "sha256:5a130876f555cffafeecd775c2e81a447b46c9a1a27f7241e0a822c4c7d30f2a",
-                "sha256:ae38e5263a1da25c3057d3b77eabc7840143f8fb893fb3795532e1aeba5e0806"
-            ],
-            "index": "pypi",
-            "version": "==7.4.0"
         },
         "flask": {
             "hashes": [
@@ -144,13 +136,6 @@
             ],
             "index": "pypi",
             "version": "==0.23.0"
-        },
-        "python-dotenv": {
-            "hashes": [
-                "sha256:25c0ff1a3e12f4bde8d592cc254ab075cfe734fc5dd989036716fd17ee7e5ec7",
-                "sha256:3b9909bc96b0edc6b01586e1eed05e71174ef4e04c71da5786370cebea53ad74"
-            ],
-            "version": "==0.13.0"
         },
         "six": {
             "hashes": [

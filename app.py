@@ -1,10 +1,9 @@
 from flask import Flask, request, jsonify 
+from flask_cors import CORS
 from flask_sqlalchemy import SQLAlchemy  
-from flask_cors import CORS 
 from flask_marshmallow import Marshmallow 
 from flask_heroku import Heroku
-
-import os 
+import os
 
 app = Flask(__name__)
 CORS(app)
@@ -12,11 +11,9 @@ heroku = Heroku(app)
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///" + os.path.join(basedir, "app.sqlite")
-app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 db = SQLAlchemy(app) 
-ma = Marshmallow(app) 
-
+ma = Marshmallow(app)
 
 class User(db.Model):
   id = db.Column(db.Integer, primary_key=True)  
@@ -26,51 +23,50 @@ class User(db.Model):
   email = db.Column(db.String(48), nullable=False)  
   password = db.Column(db.String(24), nullable=False)
   can_post = db.Column(db.Boolean(True))
+  children = db.relationship("Blog", backref="user")
 
-  def __init__(self, first_name, last_name, username, email, password, can_post):
+  def __init__(self, first_name, last_name, username, email, password, can_post, children):
     self.first_name = first_name
     self.last_name = last_name
     self.username = username
     self.email = email
     self.password = password
     self.can_post = can_post
+    self.children = children
 
-
-class BlogShare(db.Model):
-  __tablename__ = "Shared Content"
+class Blog(db.Model):
   id = db.Column(db.Integer, primary_key=True)
   title = db.Column(db.String(24), nullable=False)
   content = db.Column(db.String(250), nullable=False)
   blog_image_url = db.Column(db.String(600), nullable=True)
+  user = db.Column(db.Integer, db.ForeignKey('user.id'))
 
-  def __init__(self, title, content, blog_image_url):
+  def __init__(self, title, content, blog_image_url, user):
     self.title = title
     self.content = content
     self.blog_image_url = blog_image_url
+    self.user = user
 
 class UserSchema(ma.Schema):
   class Meta: 
-    fields = ("id", "first_name", "last_name", "username", "email", "password", "can_post")
+    fields = ("id", "first_name", "last_name", "username", "email", "password", "children")
 
 
-class BlogShareSchema(ma.Schema):
+class BlogSchema(ma.Schema):
   class Meta:
-    fields = ("id", "title", "content", "blog_image_url")
+    fields = ("id", "title", "content", "blog_image_url", "user")
 
 user_schema = UserSchema()
 users_schema = UserSchema(many=True)
 
-blog_share_schema = BlogShareSchema()
-blogs_share_schema = BlogShareSchema(many=True)
+blog_schema = BlogSchema()
+blogs_schema = BlogSchema(many=True)
 
-@app.route("/")
-def home():
-  return "<h2>Capstone API, can you see this text, Tyson?</h2>"
-
-  
+# @app.route("/")
+# def home():
+#   return "<h2>Capstone API, can you see this text, Tyson?</h2>"
 
 
 
-
-
-
+if __name__ == "__main__":
+  app.run(debug=True)

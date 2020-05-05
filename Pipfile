@@ -5,9 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 
-
 [packages]
-environs = "*"
 flask = "*"
 flask-cors = "*"
 flask-heroku = "*"
