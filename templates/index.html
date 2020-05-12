@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Nutribot First Attempt</h1>
+    <div>
+      <div id="chatbox">
+        <p class="botText"><span>Hi (: I am your personal Nutribot</span></p>
+      </div>
+
+      <div id="userInput">
+        <input
+          id="textInput"
+          type="text"
+          name="msg"
+          placeholder="Type 'define' followed by the name of the vitamin/mineral you want defined.
+          You can also ask for a list of vitamins and minerals to see an overall view."
+        />
+      </div>
+
+      <script>
+        function getBotResponse() {
+          let rawText = $("#textInput").val();
+          let userHtml = '<p class="userText"><span>' + rawText + "</span></p>";
+          $("#textInput").val("");
+          $("#chatbox").append(userHtml);
+          document
+            .getElementById("userInput")
+            .scrollIntoView({ block: "start", behaviour: "smooth" });
+          $.get("/reply", { msg: rawText }).done(function (data) {
+            let botHtml = '< p class = "botText"><span>' + data + "</span>";
+            $("#chatbox").append(botHtml);
+            document
+              .getElementById("userInput")
+              .scrollIntoView({ block: "start", behaviour: "smooth" });
+          });
+        }
+        $("#textInput").keypress(function (e) {
+          if (e.which == 13) {
+            getBotResponse();
+          }
+        });
+        $("#buttonInput").click(function () {
+          getBotResponse();
+        });
+      </script>
+    </div>
+  </body>
+</html>

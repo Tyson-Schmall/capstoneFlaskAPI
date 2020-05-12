@@ -1,18 +1,26 @@
-from flask import Flask, request, jsonify 
+from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS
-from flask_sqlalchemy import SQLAlchemy  
-from flask_marshmallow import Marshmallow 
+from flask_sqlalchemy import SQLAlchemy
+from flask_marshmallow import Marshmallow
+from chatterbot import ChatBot
+from chatterbot.trainers import ChatterBotCorpusTrainer
+from environs import Env
 from flask_heroku import Heroku
 import os
 
 app = Flask(__name__)
+english_bot = ChatBot("Chatterbot", storage_adapter="chatterbot.storage.SQLStorageAdapter")
+trainer = ChatterBotCorpusTrainer(english_bot)
+trainer.train("chatterbot.corpus.english")
+trainer.train("data/data.yml")
 CORS(app)
-heroku = Heroku(app) 
+
+heroku = Heroku(app)
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///" + os.path.join(basedir, "app.sqlite")
 
-db = SQLAlchemy(app) 
+db = SQLAlchemy(app)
 ma = Marshmallow(app)
 
 class User(db.Model):
@@ -20,9 +28,9 @@ class User(db.Model):
   first_name = db.Column(db.String(24), nullable=False)
   last_name = db.Column(db.String(24), nullable=False)
   username = db.Column(db.String(24), nullable=False)
-  email = db.Column(db.String(48), nullable=False)  
+  email = db.Column(db.String(48), nullable=False)
   password = db.Column(db.String(24), nullable=False)
-  children = db.relationship("Blog", backref="user")
+  # children = db.relationship("Blog", backref="user")
 
   def __init__(self, first_name, last_name, username, email, password):#children go in the parans
     self.first_name = first_name
@@ -30,38 +38,38 @@ class User(db.Model):
     self.username = username
     self.email = email
     self.password = password
-    self.children = children
+    # self.children = children
 
 
-class Blog(db.Model):
-  id = db.Column(db.Integer, primary_key=True)
-  title = db.Column(db.String(24), nullable=False)
-  content = db.Column(db.String(250), nullable=False)
-  blog_image_url = db.Column(db.String(600), nullable=True)
-  user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
+# class Blog(db.Model):
+#   id = db.Column(db.Integer, primary_key=True)
+#   title = db.Column(db.String(24), nullable=False)
+#   content = db.Column(db.String(250), nullable=False)
+#   blog_image_url = db.Column(db.String(600), nullable=True)
+#   # user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
 
-  def __init__(self, title, content, blog_image_url, user_id):
-    self.title = title
-    self.content = content
-    self.blog_image_url = blog_image_url
-    self.user = user_id
+#   def __init__(self, title, content, blog_image_url): # user_id
+#     self.title = title
+#     self.content = content
+#     self.blog_image_url = blog_image_url
+#     # self.user = user_id
 
 
 class UserSchema(ma.Schema):
   class Meta: 
-    fields = ("id", "first_name", "last_name", "username", "email", "password", "children")#Children may need to go in these parans here.
+    fields = ("id", "first_name", "last_name", "username", "email", "password")#Children may need to go in these parans here.
 
 
-class BlogSchema(ma.Schema):
-  class Meta:
-    fields = ("id", "title", "content", "blog_image_url", "user_id")
+# class BlogSchema(ma.Schema):
+#   class Meta:
+#     fields = ("id", "title", "content", "blog_image_url") #"user_id" may need to be re-inserted
 
 
 user_schema = UserSchema()
 users_schema = UserSchema(many=True)
 
-blog_schema = BlogSchema()
-blogs_schema = BlogSchema(many=True)
+# blog_schema = BlogSchema()
+# blogs_schema = BlogSchema(many=True)
 
 # *** PLEASE KEEP IN MIND, THERE IS NO 'PUT' ROUTE FOR THE USER MODEL/SCHEMAS BECAUSE I 
 # *** HAVE NO PURPOSE FOR IT, A USER SHOULD ONLY BE ABLE TO MODIFY CERTAIN INFORMATION OF 
@@ -89,7 +97,7 @@ def display_users():
 @app.route("/display_user/<id>", methods=["GET"])
 def display_user(id):
   user = User.query.get(id)
-  result = users_schema.dump(user_all)
+  result = user_schema.dump(user)
   
   return jsonify(result)
 
@@ -101,9 +109,9 @@ def create_user():
   username = request.json["username"]
   email = request.json["email"]
   password = request.json["password"]
-  children = request.json["children"] #########
+  # children = request.json["children"] 
 
-  new_user = User(first_name, last_name, username, email, password, children) #(children)
+  new_user = User(first_name, last_name, username, email, password) #(children)
 
   db.session.add(new_user)
   db.session.commit()
@@ -158,73 +166,81 @@ def remove_user(id):
 # DELETE ALL ENTRIES
 
 # Route to GET all blog posts.
-@app.route("/display_entries", methods=["GET"])
-def get_entries():
-  all_entries = Blog.query.all()
-  result = blogs_schema.dump(all_entries)
+# @app.route("/display_entries", methods=["GET"])
+# def get_entries():
+#   all_entries = Blog.query.all()
+#   result = blogs_schema.dump(all_entries)
 
-  return jsonify(result)
+#   return jsonify(result)
 
-# Route to GET one blog entry by it's Id.
-@app.route("/display_entry/<id>", methods=["GET"])
-def get_entry(id):
-  entry = Blog.query.get(id)
-  result = blog_schema.dump(entry)
+# # Route to GET one blog entry by it's Id.
+# @app.route("/display_entry/<id>", methods=["GET"])
+# def get_entry(id):
+#   entry = Blog.query.get(id)
+#   result = blog_schema.dump(entry)
 
-  return jsonify(result)
+#   return jsonify(result)
 
 # Route to POST a blog entry.
-@app.route("/create_entry", methods=["POST"])
-def create_entry():
-  title = request.json["title"]
-  content = request.json["content"]
-  blog_image_url = request.json["blog_image_url"]
-  user_id = request.json["user_id"]
+# @app.route("/create_entry", methods=["POST"])
+# def create_entry():
+#   title = request.json["title"]
+#   content = request.json["content"]
+#   blog_image_url = request.json["blog_image_url"]
+#   user_id = request.json["user_id"]
 
-  new_entry = Blog(title, content, blog_image_url, user_id)
+#   new_entry = Blog(title, content, blog_image_url, user_id)
 
-  db.session.add(new_entry)
-  db.session.commit()
+#   db.session.add(new_entry)
+#   db.session.commit()
   
-  entry = Blog.query.get(new_entry.id)
-  return blog_schema.jsonify(new_entry)
+#   entry = Blog.query.get(new_entry.id)
+#   return blog_schema.jsonify(new_entry)
 
 # Route to PATCH a blog entry.
-@app.route("/edit_entry/<id>", methods=["PATCH"])
-def edit_entry(id):
-  entry = Blog.query.get(id)
+# @app.route("/edit_entry/<id>", methods=["PATCH"])
+# def edit_entry(id):
+#   entry = Blog.query.get(id)
 
-  new_title = request.json["title"]
-  new_content = request.json["content"]
-  new_blog_image_url = request.json["blog_image_url"]
+#   new_title = request.json["title"]
+#   new_content = request.json["content"]
+#   new_blog_image_url = request.json["blog_image_url"]
 
-  entry.title = new_title
-  entry.content = new_content
-  entry.blog_image_url = new_blog_image_url
+#   entry.title = new_title
+#   entry.content = new_content
+#   entry.blog_image_url = new_blog_image_url
 
-  db.session.commit()
-  return blog_schema.jsonify(entry)
+#   db.session.commit()
+#   return blog_schema.jsonify(entry)
   
 # Route to DELETE ONE entry.
-@app.route("/remove_entry/<id>", methods=["DELETE"])
-def remove_entry(id):
-  record = Blog.query.get(id)
+# @app.route("/remove_entry/<id>", methods=["DELETE"])
+# def remove_entry(id):
+#   record = Blog.query.get(id)
 
-  db.session.delete(record)
-  db.session.commit()
+#   db.session.delete(record)
+#   db.session.commit()
   
-  return jsonify("Your blog entry has been successfully deleted.")
+#   return jsonify("Your blog entry has been successfully deleted.")
 
 # Route to DELETE ALL BLOG ENTRIES
-@app.route("/remove_entries", methods=["DELETE"])
-def remove_all_entries():
-  all_blog_records = Blog.query.all()
+# @app.route("/remove_entries", methods=["DELETE"])
+# def remove_all_entries():
+#   all_blog_records = Blog.query.all()
   
-  db.session.delete(all_blog_records)
-  db.session.commit()
+#   db.session.delete(all_blog_records)
+#   db.session.commit()
 
-  return jsonify("All of your blog entries have been successfully deleted.")
+#   return jsonify("All of your blog entries have been successfully deleted.")
 
+@app.route("/nutribot", methods=["GET"])
+def summon_nutribot():
+  return render_template("index.html") # This will render the bot file i have built in my backend, on to the front end, for people to interact with.
+
+@app.route("/reply", methods=["GET"])
+def get_response():
+  userText = request.args.get("msg") # Get the data from the input, that we are writing to the bot html file in JS format.
+  return str(english_bot.get_response(userText))
 
 if __name__ == "__main__":
   app.run(debug=True)

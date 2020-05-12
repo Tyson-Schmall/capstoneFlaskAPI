@@ -13,6 +13,9 @@ flask-sqlalchemy = "*"
 flask-marshmallow = "*"
 gunicorn = "*"
 marshmallow-sqlalchemy = "*"
+psycopg2 = "*"
+environs = "*"
+chatterbot = "*"
 
 [requires]
 python_version = "3.8"
