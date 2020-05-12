@@ -1,15 +1,23 @@
 categories:
   - conversations
 conversations:
-  - - Hello how are you today?
+  - - Hello Nutribot, how are you today?
     - I'm well thank you, you can ask me for a list of words I can define, or you can ask me to define a word from that list for you.
+  - - How's it going?
+    - I'm well thank you, you can ask me for a list of words I can define, or you can ask me to define a word from that list for you.
+  - - What's up?
+    - Not too much, you can ask me for a list of words I can define, or you can ask me to define a word from that list for you.
   - - That's it?
     - Yes, my functionality is limited for the time being, I am in the earliest stages of my life, I apologize for any trouble.
-  - - How's it going?
-    - I'm well thank you, what did you need defined?
-  - - What's up?
-    - Not too much, what did you need defined?
+  - - Is that it?
+    - Yes, my functionality is limited for the time being, I am in the earliest stages of my life, I apologize for any trouble.
+  - - Can you do anything else?
+    - No, unfortunately. My functionality is limited for the time being, as I am in the earliest stages of my life. I apologize for any trouble.
   - - Show me a list.
+    - Vitamins and Minerals I can define include Vitamin A, Vitamin B(B1, B2, B3, B5, B6, B7, B12 and Folic-Acid), Vitamin C, Vitamin D, Vitamin E, Vitamin K, Selenium, Potassium, Calcium, Phosphorus, Magnesium, Iodine, Iron, and Zinc.
+  - - What words do you know?
+    - Vitamins and Minerals I can define include Vitamin A, Vitamin B(B1, B2, B3, B5, B6, B7, B12 and Folic-Acid), Vitamin C, Vitamin D, Vitamin E, Vitamin K, Selenium, Potassium, Calcium, Phosphorus, Magnesium, Iodine, Iron, and Zinc.
+  - - Show me a list of words you know?
     - Vitamins and Minerals I can define include Vitamin A, Vitamin B(B1, B2, B3, B5, B6, B7, B12 and Folic-Acid), Vitamin C, Vitamin D, Vitamin E, Vitamin K, Selenium, Potassium, Calcium, Phosphorus, Magnesium, Iodine, Iron, and Zinc.
   - - What all can you define?
     - Vitamins and Minerals I can define include Vitamin A, Vitamin B(B1, B2, B3, B5, B6, B7, B12 and Folic-Acid), Vitamin C, Vitamin D, Vitamin E, Vitamin K, Selenium, Potassium, Calcium, Phosphorus, Magnesium, Iodine, Iron, and Zinc.
@@ -184,10 +192,18 @@ conversations:
   - - What is the definition of Iron?
     - Iron is an important component of hemoglobin, the substance in red blood cells that carries oxygen from your lungs to the rest of your body. Benefits of Iron include general energy and focus, gastrointestinal processes, the immune system, and the regulation of body termperature. These benefits usually go unnoticed until a person is not getting enough of this mineral.
   - - What is Zinc?
-    - Answer should go here.
+    - Zinc is an important mineral that is found in every cell in your body. It helps your immune system fight off invading bacteria and viruses. Zinc is also critical for growth and development during pregnancy, infancy and childhood. Zinc also has been shown to aid in wounds healing, as well as maintaining a good sence of taste and smell.
   - - What does Zinc mean?
-    - Answer should go here.
+    - Zinc is an important mineral that is found in every cell in your body. It helps your immune system fight off invading bacteria and viruses. Zinc is also critical for growth and development during pregnancy, infancy and childhood. Zinc also has been shown to aid in wounds healing, as well as maintaining a good sence of taste and smell.
   - - Define Zinc?
-    - Answer should go here.
+    - Zinc is an important mineral that is found in every cell in your body. It helps your immune system fight off invading bacteria and viruses. Zinc is also critical for growth and development during pregnancy, infancy and childhood. Zinc also has been shown to aid in wounds healing, as well as maintaining a good sence of taste and smell.
   - - What is the definition of Zinc?
-    - Answer should go here.
+    - Zinc is an important mineral that is found in every cell in your body. It helps your immune system fight off invading bacteria and viruses. Zinc is also critical for growth and development during pregnancy, infancy and childhood. Zinc also has been shown to aid in wounds healing, as well as maintaining a good sence of taste and smell.
+  - - Thank you Nutribot.
+    - You're welcome (=
+  - - Thanks for your help Nutribot.
+    - You're welcome (=
+  - - Thanks Nutribot.
+    - You're welcome (=
+  - - Thanks for your assistance Nutribot!
+    - You're welcome (=
