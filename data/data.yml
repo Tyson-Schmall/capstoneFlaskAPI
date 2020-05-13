@@ -5,6 +5,8 @@ conversations:
     - I'm well thank you, I hope you are too. Would you like to know what I am capable of?
   - - Hello how are you today?
     - I'm well thank you, I hope you are too.  Would you like to know what I am capable of?
+  - - How are you today?
+    - I'm well thank you, I hope you are too.  Would you like to know what I am capable of?
   - - Hey Nutribot, how's it going you today?
     - I'm well thank you, I hope you are too.  Would you like to know what I am capable of?
   - - Hey Nutribot, how's it going you today?
@@ -101,13 +103,13 @@ conversations:
   # - - What is the definition of Vitamin B2?
   #   - Vitamin B2, also called Riboflavin, embodies the role of breaking down proteins and fats. It also allows for oxygen to be used by our bodies. The carbohydrates that Riboflavin get their hands on, are converted into adenosine triphosphate (ATP). ATP sounds kind of crazy, but simply put, it is what produces the energy our body requires.
   # - - What is Vitamin B3?
-  #   - Vitamin B3, also called Niacin, helps enzymes function properly. It also aids in keeping your nerves, skin and digestive-tract healthy. In addition to the aforementioned, it helps with the production of steroid hormones made by the adrenal gland. These hormones include sex homrones and stress-related ones.
+  #   - Vitamin B3, also called Niacin, helps enzymes function properly. It also aids in keeping your nerves, skin and digestive-tract healthy. In addition to the aforementioned, it helps with the production of steroid hormones made by the adrenal gland. These hormones include sex hormones and stress-related ones.
   # - - What does Vitamin B3 mean?
-  #   - Vitamin B3, also called Niacin, helps enzymes function properly. It also aids in keeping your nerves, skin and digestive-tract healthy. In addition to the aforementioned, it helps with the production of steroid hormones made by the adrenal gland. These hormones include sex homrones and stress-related ones.
+  #   - Vitamin B3, also called Niacin, helps enzymes function properly. It also aids in keeping your nerves, skin and digestive-tract healthy. In addition to the aforementioned, it helps with the production of steroid hormones made by the adrenal gland. These hormones include sex hormones and stress-related ones.
   - - Define Vitamin B3?
-    - Vitamin B3, also called Niacin, helps enzymes function properly. It also aids in keeping your nerves, skin and digestive-tract healthy. In addition to the aforementioned, it helps with the production of steroid hormones made by the adrenal gland. These hormones include sex homrones and stress-related ones.
+    - Vitamin B3, also called Niacin, helps enzymes function properly. It also aids in keeping your nerves, skin and digestive-tract healthy. In addition to the aforementioned, it helps with the production of steroid hormones made by the adrenal gland. These hormones include sex hormones and stress-related ones.
   # - - What is the definition of Vitamin B3?
-  #   - Vitamin B3, also called Niacin, helps enzymes function properly. It also aids in keeping your nerves, skin and digestive-tract healthy. In addition to the aforementioned, it helps with the production of steroid hormones made by the adrenal gland. These hormones include sex homrones and stress-related ones.
+  #   - Vitamin B3, also called Niacin, helps enzymes function properly. It also aids in keeping your nerves, skin and digestive-tract healthy. In addition to the aforementioned, it helps with the production of steroid hormones made by the adrenal gland. These hormones include sex hormones and stress-related ones.
   # - - What is Vitamin B5?
   #   - Vitamin B5, also called Pantothenic acid, aids in converting foods we eat into energy, like many of it's relatives in the Vitamin B-Complex. It also is necessary for the production of blood cells, and promotes healthy skin, hair, eyes, and liver. This is a lesser known B-Vitamin because deficincies in it are very rare.
   # - - What does Vitamin B5 mean?
@@ -209,7 +211,7 @@ conversations:
   # - - What does Phosphorus mean?
   #   - Aside form aiding in how the body uses carohydrates and fats, Phosphorus is responsible for growth, maintenance and repair of cells and tissues. It also helps the body make adenosine triphosphate (ATP), which is a molecule the body uses to store energy. Phosphors works with the Vitamins in the B-Complex.
   - - Define Phosphorus?
-    - Aside form aiding in how the body uses carohydrates and fats, Phosphorus is responsible for growth, maintenance and repair of cells and tissues. It also helps the body make adenosine triphosphate (ATP), which is a molecule the body uses to store energy. Phosphors works with the Vitamins in the B-Complex.
+    - Aside from aiding in how your body uses carohydrates and fats, Phosphorus is responsible for growth, maintenance and repair of cells and tissues. It also helps the body make adenosine triphosphate (ATP), which is a molecule the body uses to store energy. Phosphors works with the Vitamins in the B-Complex.
   # - - What is the definition of Phosphorus?
   #   - Aside form aiding in how the body uses carohydrates and fats, Phosphorus is responsible for growth, maintenance and repair of cells and tissues. It also helps the body make adenosine triphosphate (ATP), which is a molecule the body uses to store energy. Phosphors works with the Vitamins in the B-Complex.
   # - - What is Magnesium?
