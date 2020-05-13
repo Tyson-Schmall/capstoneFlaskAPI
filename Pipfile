@@ -15,7 +15,7 @@ gunicorn = "*"
 marshmallow-sqlalchemy = "*"
 psycopg2 = "*"
 environs = "*"
-chatterbot = "*"
+chatterbot = "==1.0.1"
 
 [requires]
 python_version = "3.8"
