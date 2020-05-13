@@ -57,16 +57,16 @@ conversations:
     - Well, I can't help you if you have nothing you need help with.
   - - Can we just have a conversation?
     - No we cannot, I apologize for any inconvenience. Did you need a Vitamin or Mineral defined?
-  - - Define Vitamins
+  - - Define Vitamins?
     - Vitamins are any group of organic compounds which are essential for normal growth and nutrition. These are required in small quantities in your diet, because they cannot be synthesized in our bodies.
   # - - What are Vitamins
   #   - Vitamins are any group of organic compounds which are essential for normal growth and nutrition. These are required in small quantities in your diet, because they cannot be synthesized in our bodies.
   # - - What is a Vitamin
   #   - A Vitamin, or Vitamins, are any group of organic compounds which are essential for normal growth and nutrition. These are required in small quantities in your diet, because they cannot be synthesized in our bodies.
-  # - - Define Vitamin?
-  #   - A Vitamin, or Vitamins, are any group of organic compounds which are essential for normal growth and nutrition. These are required in small quantities in your diet, because they cannot be synthesized in our bodies.
-  # # - - Define Mineral?
-  # - - Define Minerals?
+  - - Define Vitamin?
+    - A Vitamin, or Vitamins, are any group of organic compounds which are essential for normal growth and nutrition. These are required in small quantities in your diet, because they cannot be synthesized in our bodies.
+  - - Define Mineral?
+  - - Define Minerals?
   # - - What are Minerals?
   # - - What is a Mineral?
   # - - Vitamins or Minerals?
@@ -80,175 +80,175 @@ conversations:
   #   - Vitamin A is a fat-soluble vitamin; Important for normal vision, tissue growth, and healthy skin. It is found in fish-liver oils, milk, green leafy vegetables, and red, orange, and yellow vegetables and fruits. A deficiency of vitamin A in humans causes poor vision at night and damage to the skin and mucous membranes.
   # - - What does Vitamin A mean?
   #   - A fat-soluble vitamin important for normal vision, tissue growth, and healthy skin. It is found in fish-liver oils, milk, green leafy vegetables, and red, orange, and yellow vegetables and fruits. A deficiency of vitamin A in humans causes poor vision at night and damage to the skin and mucous membranes.
-  # - - Define Vitamin A?
-  #   - A fat-soluble vitamin important for normal vision, tissue growth, and healthy skin. It is found in fish-liver oils, milk, green leafy vegetables, and red, orange, and yellow vegetables and fruits. A deficiency of vitamin A in humans causes poor vision at night and damage to the skin and mucous membranes.
+  - - Define Vitamin A?
+    - A fat-soluble vitamin important for normal vision, tissue growth, and healthy skin. It is found in fish-liver oils, milk, green leafy vegetables, and red, orange, and yellow vegetables and fruits. A deficiency of vitamin A in humans causes poor vision at night and damage to the skin and mucous membranes.
   # - - What is the definition of Vitamin A?
   #   - A fat-soluble vitamin important for normal vision, tissue growth, and healthy skin. It is found in fish-liver oils, milk, green leafy vegetables, and red, orange, and yellow vegetables and fruits. A deficiency of vitamin A in humans causes poor vision at night and damage to the skin and mucous membranes.
   # - - What is Vitamin B1?
   #   - Vitamin B1, also called Thiamin/Thiamine, enables the body to use carbohydrates as energy. It is essential for glucose metabolism, and plays a key role in heart function. It also plays a role in muscle contraction and the conduction of nerve signals. All B Vitamins are water-soluble.
   # - - What does Vitamin B1 mean?
   #   - Vitamin B1, also called Thiamin/Thiamine, enables the body to use carbohydrates as energy. It is essential for glucose metabolism, and plays a key role in heart function. It also plays a role in muscle contraction and the conduction of nerve signals. All B Vitamins are water-soluble.
-  # - - Define Vitamin B1?
-  #   - Vitamin B1, also called Thiamin/Thiamine, enables the body to use carbohydrates as energy. It is essential for glucose metabolism, and plays a key role in heart function. It also plays a role in muscle contraction and the conduction of nerve signals. All B Vitamins are water-soluble.
+  - - Define Vitamin B1?
+    - Vitamin B1, also called Thiamin/Thiamine, enables the body to use carbohydrates as energy. It is essential for glucose metabolism, and plays a key role in heart function. It also plays a role in muscle contraction and the conduction of nerve signals. All B Vitamins are water-soluble.
   # - - What is the definition of Vitamin B1?
   #   - Vitamin B1, also called Thiamin/Thiamine, enables the body to use carbohydrates as energy. It is essential for glucose metabolism, and plays a key role in heart function. It also plays a role in muscle contraction and the conduction of nerve signals. All B Vitamins are water-soluble.
   # - - What is Vitamin B2?
   #   - Vitamin B2, also called Riboflavin, embodies the role of breaking down proteins and fats. It also allows for oxygen to be used by our bodies. The carbohydrates that Riboflavin get their hands on, are converted into adenosine triphosphate (ATP). ATP sounds kind of crazy, but simply put, it is what produces the energy our body requires.
   # - - What does Vitamin B2 mean?
   #   - Vitamin B2, also called Riboflavin, embodies the role of breaking down proteins and fats. It also allows for oxygen to be used by our bodies. The carbohydrates that Riboflavin get their hands on, are converted into adenosine triphosphate (ATP). ATP sounds kind of crazy, but simply put, it is what produces the energy our body requires.
-  # - - Define Vitamin B2?
-  #   - Vitamin B2, also called Riboflavin, embodies the role of breaking down proteins and fats. It also allows for oxygen to be used by our bodies. The carbohydrates that Riboflavin get their hands on, are converted into adenosine triphosphate (ATP). ATP sounds kind of crazy, but simply put, it is what produces the energy our body requires.
+  - - Define Vitamin B2?
+    - Vitamin B2, also called Riboflavin, embodies the role of breaking down proteins and fats. It also allows for oxygen to be used by our bodies. The carbohydrates that Riboflavin get their hands on, are converted into adenosine triphosphate (ATP). ATP sounds kind of crazy, but simply put, it is what produces the energy our body requires.
   # - - What is the definition of Vitamin B2?
   #   - Vitamin B2, also called Riboflavin, embodies the role of breaking down proteins and fats. It also allows for oxygen to be used by our bodies. The carbohydrates that Riboflavin get their hands on, are converted into adenosine triphosphate (ATP). ATP sounds kind of crazy, but simply put, it is what produces the energy our body requires.
   # - - What is Vitamin B3?
   #   - Vitamin B3, also called Niacin, helps enzymes function properly. It also aids in keeping your nerves, skin and digestive-tract healthy. In addition to the aforementioned, it helps with the production of steroid hormones made by the adrenal gland. These hormones include sex homrones and stress-related ones.
   # - - What does Vitamin B3 mean?
   #   - Vitamin B3, also called Niacin, helps enzymes function properly. It also aids in keeping your nerves, skin and digestive-tract healthy. In addition to the aforementioned, it helps with the production of steroid hormones made by the adrenal gland. These hormones include sex homrones and stress-related ones.
-  # - - Define Vitamin B3?
-  #   - Vitamin B3, also called Niacin, helps enzymes function properly. It also aids in keeping your nerves, skin and digestive-tract healthy. In addition to the aforementioned, it helps with the production of steroid hormones made by the adrenal gland. These hormones include sex homrones and stress-related ones.
+  - - Define Vitamin B3?
+    - Vitamin B3, also called Niacin, helps enzymes function properly. It also aids in keeping your nerves, skin and digestive-tract healthy. In addition to the aforementioned, it helps with the production of steroid hormones made by the adrenal gland. These hormones include sex homrones and stress-related ones.
   # - - What is the definition of Vitamin B3?
   #   - Vitamin B3, also called Niacin, helps enzymes function properly. It also aids in keeping your nerves, skin and digestive-tract healthy. In addition to the aforementioned, it helps with the production of steroid hormones made by the adrenal gland. These hormones include sex homrones and stress-related ones.
   # - - What is Vitamin B5?
   #   - Vitamin B5, also called Pantothenic acid, aids in converting foods we eat into energy, like many of it's relatives in the Vitamin B-Complex. It also is necessary for the production of blood cells, and promotes healthy skin, hair, eyes, and liver. This is a lesser known B-Vitamin because deficincies in it are very rare.
   # - - What does Vitamin B5 mean?
   #   - Vitamin B5, also called Pantothenic acid, aids in converting foods we eat into energy, like many of it's relatives in the Vitamin B-Complex. It also is necessary for the production of blood cells, and promotes healthy skin, hair, eyes, and liver. This is a lesser known B-Vitamin because deficincies in it are very rare.
-  # - - Define Vitamin B5?
-  #   - Vitamin B5, also called Pantothenic acid, aids in converting foods we eat into energy, like many of it's relatives in the Vitamin B-Complex. It also is necessary for the production of blood cells, and promotes healthy skin, hair, eyes, and liver. This is a lesser known B-Vitamin because deficincies in it are very rare.
+  - - Define Vitamin B5?
+    - Vitamin B5, also called Pantothenic acid, aids in converting foods we eat into energy, like many of it's relatives in the Vitamin B-Complex. It also is necessary for the production of blood cells, and promotes healthy skin, hair, eyes, and liver. This is a lesser known B-Vitamin because deficincies in it are very rare.
   # - - What is the definition of Vitamin B5?
   #   - Vitamin B5, also called Pantothenic acid, aids in converting foods we eat into energy, like many of it's relatives in the Vitamin B-Complex. It also is necessary for the production of blood cells, and promotes healthy skin, hair, eyes, and liver. This is a lesser known B-Vitamin because deficincies in it are very rare.
   # - - What is Vitamin B6?
   #   - Vitamin B6 is one of the Vitamins that benefits the central nervous sytem. Simply put, it helps you sleep more efficiently, promotes overall brain health, may be helpful in preventing anemia, may treat inflammation associated with Rheymatoid Arthritis, and aids with energy like may of it's siblings in the B-Complex.
   # - - What does Vitamin B6 mean?
   #   - Vitamin B6 is one of the Vitamins that benefits the central nervous sytem. Simply put, it helps you sleep more efficiently, promotes overall brain health, may be helpful in preventing anemia, may treat inflammation associated with Rheymatoid Arthritis, and aids with energy like may of it's siblings in the B-Complex.
-  # - - Define Vitamin B6?
-  #   - Vitamin B6 is one of the Vitamins that benefits the central nervous sytem. Simply put, it helps you sleep more efficiently, promotes overall brain health, may be helpful in preventing anemia, may treat inflammation associated with Rheymatoid Arthritis, and aids with energy like may of it's siblings in the B-Complex.
+  - - Define Vitamin B6?
+    - Vitamin B6 is one of the Vitamins that benefits the central nervous sytem. Simply put, it helps you sleep more efficiently, promotes overall brain health, may be helpful in preventing anemia, may treat inflammation associated with Rheymatoid Arthritis, and aids with energy like may of it's siblings in the B-Complex.
   # - - What is the definition of Vitamin B6?
   #   - Vitamin B6 is one of the Vitamins that benefits the central nervous sytem. Simply put, it helps you sleep more efficiently, promotes overall brain health, may be helpful in preventing anemia, may treat inflammation associated with Rheymatoid Arthritis, and aids with energy like may of it's siblings in the B-Complex.
   # - - What is Vitamin B7?
   #   - Vitamin B7, also called Biotin or even Vitamin H, may aid in increasing the overall health of your hair, skin and nails. Though is is a topic of debate, many people swear by it and take this vitamin regularly.
   # - - What does Vitamin B7 mean?
   #   - Vitamin B7, also called Biotin or even Vitamin H, may aid in increasing the overall health of your hair, skin and nails. Though is is a topic of debate, many people swear by it and take this vitamin regularly.
-  # - - Define Vitamin B7?
-  #   - Vitamin B7, also called Biotin or even Vitamin H, may aid in increasing the overall health of your hair, skin and nails. Though is is a topic of debate, many people swear by it and take this vitamin regularly.
+  - - Define Vitamin B7?
+    - Vitamin B7, also called Biotin or even Vitamin H, may aid in increasing the overall health of your hair, skin and nails. Though is is a topic of debate, many people swear by it and take this vitamin regularly.
   # - - What is the definition of Vitamin B7?
   #   - Vitamin B7, also called Biotin or even Vitamin H, may aid in increasing the overall health of your hair, skin and nails. Though is is a topic of debate, many people swear by it and take this vitamin regularly.
   # - - What is Vitamin B12?
   #   - Vitamin B12 is required for proper red-blood-cell formation. It is also needed for proper neurological function, and DNA synthesis in your body. It also, like it's other siblings in the B-Complex, is responsible for energy production.
   # - - What does Vitamin B12 mean?
   #   - Vitamin B12 is required for proper red-blood-cell formation. It is also needed for proper neurological function, and DNA synthesis in your body. It also, like it's other siblings in the B-Complex, is responsible for energy production.
-  # - - Define Vitamin B12?
-  #   - Vitamin B12 is required for proper red-blood-cell formation. It is also needed for proper neurological function, and DNA synthesis in your body. It also, like it's other siblings in the B-Complex, is responsible for energy production.
+  - - Define Vitamin B12?
+    - Vitamin B12 is required for proper red-blood-cell formation. It is also needed for proper neurological function, and DNA synthesis in your body. It also, like it's other siblings in the B-Complex, is responsible for energy production.
   # - - What is the definition of Vitamin B12?
   #   - Vitamin B12 is required for proper red-blood-cell formation. It is also needed for proper neurological function, and DNA synthesis in your body. It also, like it's other siblings in the B-Complex, is responsible for energy production.
   # - - What is folic acid?
   #   - Folic acid is capable of treating certain types of anemia. It helps the body produce and maintain new cells, as well as prevents changes to your DNA that may lead to cancer. This vitamin cannot be produced in the body and must be supplied through the diet.
   # - - What does folic acid mean?
   #   - Folic acid is capable of treating certain types of anemia. It helps the body produce and maintain new cells, as well as prevents changes to your DNA that may lead to cancer. This vitamin cannot be produced in the body and must be supplied through the diet.
-  # - - Define folic acid?
-  #   - Folic acid is capable of treating certain types of anemia. It helps the body produce and maintain new cells, as well as prevents changes to your DNA that may lead to cancer. This vitamin cannot be produced in the body and must be supplied through the diet.
+  - - Define folic acid?
+    - Folic acid is capable of treating certain types of anemia. It helps the body produce and maintain new cells, as well as prevents changes to your DNA that may lead to cancer. This vitamin cannot be produced in the body and must be supplied through the diet.
   # - - What is the definition of folic acid?
   #   - Folic acid is capable of treating certain types of anemia. It helps the body produce and maintain new cells, as well as prevents changes to your DNA that may lead to cancer. This vitamin cannot be produced in the body and must be supplied through the diet.
   # - - What is Vitamin C?
   #   - Vitamin C helps maintain your bones, skin and blood vessesls. It aids our bodies in producing Collagen, which is the main component of connective tissue and the most abundant protein in mammals. Collagen is vital in tendons, ligaments, skin, your cornea, any cartilage, bones, your gut and blood cessels. Consistenly healthy levels also have shown to aid in recovering from small cuts or grazes faster.
   # - - What does Vitamin C mean?
   #   - Vitamin C helps maintain your bones, skin and blood vessesls. It aids our bodies in producing Collagen, which is the main component of connective tissue and the most abundant protein in mammals. Collagen is vital in tendons, ligaments, skin, your cornea, any cartilage, bones, your gut and blood cessels. Consistenly healthy levels also have shown to aid in recovering from small cuts or grazes faster.
-  # - - Define Vitamin C?
-  #   - Vitamin C helps maintain your bones, skin and blood vessesls. It aids our bodies in producing Collagen, which is the main component of connective tissue and the most abundant protein in mammals. Collagen is vital in tendons, ligaments, skin, your cornea, any cartilage, bones, your gut and blood cessels. Consistenly healthy levels also have shown to aid in recovering from small cuts or grazes faster.
+  - - Define Vitamin C?
+    - Vitamin C helps maintain your bones, skin and blood vessesls. It aids our bodies in producing Collagen, which is the main component of connective tissue and the most abundant protein in mammals. Collagen is vital in tendons, ligaments, skin, your cornea, any cartilage, bones, your gut and blood cessels. Consistenly healthy levels also have shown to aid in recovering from small cuts or grazes faster.
   # - - What is the definition of Vitamin C?
   #   - Vitamin C helps maintain your bones, skin and blood vessesls. It aids our bodies in producing Collagen, which is the main component of connective tissue and the most abundant protein in mammals. Collagen is vital in tendons, ligaments, skin, your cornea, any cartilage, bones, your gut and blood cessels. Consistenly healthy levels also have shown to aid in recovering from small cuts or grazes faster.
   # - - What is Vitamin D?
   #   - Vitamin D's main responsibility is to maintain strong bones in your body. It does this by aiding in the calcium absorption from food and supplements that you take in. Nerves also need this Vitamin to carry messages between the brain dn every part of your body. The immune system needs it to fight off invading bacteria and viruses.
   # - - What does Vitamin D mean?
   #   - Vitamin D's main responsibility is to maintain strong bones in your body. It does this by aiding in the calcium absorption from food and supplements that you take in. Nerves also need this Vitamin to carry messages between the brain dn every part of your body. The immune system needs it to fight off invading bacteria and viruses.
-  # - - Define Vitamin D?
-  #   - Vitamin D's main responsibility is to maintain strong bones in your body. It does this by aiding in the calcium absorption from food and supplements that you take in. Nerves also need this Vitamin to carry messages between the brain dn every part of your body. The immune system needs it to fight off invading bacteria and viruses.
+  - - Define Vitamin D?
+    - Vitamin D's main responsibility is to maintain strong bones in your body. It does this by aiding in the calcium absorption from food and supplements that you take in. Nerves also need this Vitamin to carry messages between the brain dn every part of your body. The immune system needs it to fight off invading bacteria and viruses.
   # - - What is the definition of Vitamin D?
   #   - Vitamin D's main responsibility is to maintain strong bones in your body. It does this by aiding in the calcium absorption from food and supplements that you take in. Nerves also need this Vitamin to carry messages between the brain dn every part of your body. The immune system needs it to fight off invading bacteria and viruses.
   # - - What is Vitamin E?
   #   - Vitamin E's responsibility is to act as a shield for your cells. This is an antioxidant, that may help reduce free radical damage; As well as slow the aging process of your cells in general, according to the National Institutes of Health (NIH). Free radicals occurr naturally in our bodies, but this Vitamin specifcally aids in protection from them. It provides protection from ultraviolet rays, too.
   # - - What does Vitamin E mean?
   #   - Vitamin E's responsibility is to act as a shield for your cells. This is an antioxidant, that may help reduce free radical damage; As well as slow the aging process of your cells in general, according to the National Institutes of Health (NIH). Free radicals occurr naturally in our bodies, but this Vitamin specifcally aids in protection from them. It provides protection from ultraviolet rays, too.
-  # - - Define Vitamin E?
-  #   - Vitamin E's responsibility is to act as a shield for your cells. This is an antioxidant, that may help reduce free radical damage; As well as slow the aging process of your cells in general, according to the National Institutes of Health (NIH). Free radicals occurr naturally in our bodies, but this Vitamin specifcally aids in protection from them. It provides protection from ultraviolet rays, too.
+  - - Define Vitamin E?
+    - Vitamin E's responsibility is to act as a shield for your cells. This is an antioxidant, that may help reduce free radical damage; As well as slow the aging process of your cells in general, according to the National Institutes of Health (NIH). Free radicals occurr naturally in our bodies, but this Vitamin specifcally aids in protection from them. It provides protection from ultraviolet rays, too.
   # - - What is the definition of Vitamin E?
   #   - Vitamin E's responsibility is to act as a shield for your cells. This is an antioxidant, that may help reduce free radical damage; As well as slow the aging process of your cells in general, according to the National Institutes of Health (NIH). Free radicals occurr naturally in our bodies, but this Vitamin specifcally aids in protection from them. It provides protection from ultraviolet rays, too.
   # - - What is Vitamin K?
   #   - Vitamin K plays a crucial role in your bone metabolism, blood clotting, and regulating blood calcium levels. The body needs Vitamin K to produce a protein and clotting factor, called Prothrombin. This is waht is important for blood clotting and your bone metabolism.
   # - - What does Vitamin K mean?
   #   - Vitamin K plays a crucial role in your bone metabolism, blood clotting, and regulating blood calcium levels. The body needs Vitamin K to produce a protein and clotting factor, called Prothrombin. This is waht is important for blood clotting and your bone metabolism.
-  # - - Define Vitamin K?
-  #   - Vitamin K plays a crucial role in your bone metabolism, blood clotting, and regulating blood calcium levels. The body needs Vitamin K to produce a protein and clotting factor, called Prothrombin. This is waht is important for blood clotting and your bone metabolism.
+  - - Define Vitamin K?
+    - Vitamin K plays a crucial role in your bone metabolism, blood clotting, and regulating blood calcium levels. The body needs Vitamin K to produce a protein and clotting factor, called Prothrombin. This is waht is important for blood clotting and your bone metabolism.
   # - - What is the definition of Vitamin K?
   #   - Vitamin K plays a crucial role in your bone metabolism, blood clotting, and regulating blood calcium levels. The body needs Vitamin K to produce a protein and clotting factor, called Prothrombin. This is waht is important for blood clotting and your bone metabolism.
   # - - What is Selenium ?
   #   - Selenium is an essential trace-mineral that is important for many bodily processes, including cognitive funciton, a healthy immune system, and fertility in both men and women.
   # - - What does Selenium mean?
   #   - Selenium is an essential trace-mineral that is important for many bodily processes, including cognitive funciton, a healthy immune system, and fertility in both men and women.
-  # - - Define Selenium ?
-  #   - Selenium is an essential trace-mineral that is important for many bodily processes, including cognitive funciton, a healthy immune system, and fertility in both men and women.
+  - - Define Selenium ?
+    - Selenium is an essential trace-mineral that is important for many bodily processes, including cognitive funciton, a healthy immune system, and fertility in both men and women.
   # - - What is the definition of Selenium?
   #   - Selenium is an essential trace-mineral that is important for many bodily processes, including cognitive funciton, a healthy immune system, and fertility in both men and women.
   # - - What is Potassium?
   #   - Potassium is a mineral that your body needs to function properly. It is a type of electrolyte that helps your nerves to function, and your muscles to contract. It aids in regulating your heartbeat, and moves nutrients into cells while moving waste out of them. Healthy levels of Potassium can aid in offsetting some of Sodium's harmful side effects like blood pressure.
   # - - What does Potassium mean?
   #   - Potassium is a mineral that your body needs to function properly. It is a type of electrolyte that helps your nerves to function, and your muscles to contract. It aids in regulating your heartbeat, and moves nutrients into cells while moving waste out of them. Healthy levels of Potassium can aid in offsetting some of Sodium's harmful side effects like blood pressure.
-  # - - Define Potassium?
-  #   - Potassium is a mineral that your body needs to function properly. It is a type of electrolyte that helps your nerves to function, and your muscles to contract. It aids in regulating your heartbeat, and moves nutrients into cells while moving waste out of them. Healthy levels of Potassium can aid in offsetting some of Sodium's harmful side effects like blood pressure.
+  - - Define Potassium?
+    - Potassium is a mineral that your body needs to function properly. It is a type of electrolyte that helps your nerves to function, and your muscles to contract. It aids in regulating your heartbeat, and moves nutrients into cells while moving waste out of them. Healthy levels of Potassium can aid in offsetting some of Sodium's harmful side effects like blood pressure.
   # - - What is the definition of Potassium?
   #   - Potassium is a mineral that your body needs to function properly. It is a type of electrolyte that helps your nerves to function, and your muscles to contract. It aids in regulating your heartbeat, and moves nutrients into cells while moving waste out of them. Healthy levels of Potassium can aid in offsetting some of Sodium's harmful side effects like blood pressure.
   # - - What is Calcium?
   #   - Much like Vitamin D, Calcium is needed to build and maintain strong bones. your heart, muscles and nerves also need calcium to function properly. It also has been show to enable our blood to clot. About 99% of all the Calcium in our bodiy, is in our bones and our teeth.
   # - - What does Calcium mean?
   #   - Much like Vitamin D, Calcium is needed to build and maintain strong bones. your heart, muscles and nerves also need calcium to function properly. It also has been show to enable our blood to clot. About 99% of all the Calcium in our bodiy, is in our bones and our teeth.
-  # - - Define Calcium?
-  #   - Much like Vitamin D, Calcium is needed to build and maintain strong bones. your heart, muscles and nerves also need calcium to function properly. It also has been show to enable our blood to clot. About 99% of all the Calcium in our bodiy, is in our bones and our teeth.
+  - - Define Calcium?
+    - Much like Vitamin D, Calcium is needed to build and maintain strong bones. your heart, muscles and nerves also need calcium to function properly. It also has been show to enable our blood to clot. About 99% of all the Calcium in our bodiy, is in our bones and our teeth.
   # - - What is the definition of Calcium?
   #   - Much like Vitamin D, Calcium is needed to build and maintain strong bones. your heart, muscles and nerves also need calcium to function properly. It also has been show to enable our blood to clot. About 99% of all the Calcium in our bodiy, is in our bones and our teeth.
   # - - What is Phosphorus?
   #   - Aside form aiding in how the body uses carohydrates and fats, Phosphorus is responsible for growth, maintenance and repair of cells and tissues. It also helps the body make adenosine triphosphate (ATP), which is a molecule the body uses to store energy. Phosphors works with the Vitamins in the B-Complex.
   # - - What does Phosphorus mean?
   #   - Aside form aiding in how the body uses carohydrates and fats, Phosphorus is responsible for growth, maintenance and repair of cells and tissues. It also helps the body make adenosine triphosphate (ATP), which is a molecule the body uses to store energy. Phosphors works with the Vitamins in the B-Complex.
-  # - - Define Phosphorus?
-  #   - Aside form aiding in how the body uses carohydrates and fats, Phosphorus is responsible for growth, maintenance and repair of cells and tissues. It also helps the body make adenosine triphosphate (ATP), which is a molecule the body uses to store energy. Phosphors works with the Vitamins in the B-Complex.
+  - - Define Phosphorus?
+    - Aside form aiding in how the body uses carohydrates and fats, Phosphorus is responsible for growth, maintenance and repair of cells and tissues. It also helps the body make adenosine triphosphate (ATP), which is a molecule the body uses to store energy. Phosphors works with the Vitamins in the B-Complex.
   # - - What is the definition of Phosphorus?
   #   - Aside form aiding in how the body uses carohydrates and fats, Phosphorus is responsible for growth, maintenance and repair of cells and tissues. It also helps the body make adenosine triphosphate (ATP), which is a molecule the body uses to store energy. Phosphors works with the Vitamins in the B-Complex.
   # - - What is Magnesium?
   #   - Magnesium is required for energy production, it also plays a role in the active transport of calcium and potassium ions across cell membranes, a process that is important to nerve impulse conduction, muscle contraction, and normal heart rhythm.
   # - - What does Magnesium mean?
   #   - Magnesium is required for energy production, it also plays a role in the active transport of calcium and potassium ions across cell membranes, a process that is important to nerve impulse conduction, muscle contraction, and normal heart rhythm.
-  # - - Define Magnesium?
-  #   - Magnesium is required for energy production, it also plays a role in the active transport of calcium and potassium ions across cell membranes, a process that is important to nerve impulse conduction, muscle contraction, and normal heart rhythm.
+  - - Define Magnesium?
+    - Magnesium is required for energy production, it also plays a role in the active transport of calcium and potassium ions across cell membranes, a process that is important to nerve impulse conduction, muscle contraction, and normal heart rhythm.
   # - - What is the definition of Magnesium?
   #   - Magnesium is required for energy production, it also plays a role in the active transport of calcium and potassium ions across cell membranes, a process that is important to nerve impulse conduction, muscle contraction, and normal heart rhythm.
   # - - What is Iodine?
   #   - Iodine is a mineral needed by our bodies to make thyroid hormones. These hormones control the body's metabolism and many other important functions. The body also needs thyroid hormones for proper bone and brain development during pregnancy and infancy.
   # - - What does Iodine mean?
   #   - Iodine is a mineral needed by our bodies to make thyroid hormones. These hormones control the body's metabolism and many other important functions. The body also needs thyroid hormones for proper bone and brain development during pregnancy and infancy.
-  # - - Define Iodine?
-  #   - Iodine is a mineral needed by our bodies to make thyroid hormones. These hormones control the body's metabolism and many other important functions. The body also needs thyroid hormones for proper bone and brain development during pregnancy and infancy.
+  - - Define Iodine?
+    - Iodine is a mineral needed by our bodies to make thyroid hormones. These hormones control the body's metabolism and many other important functions. The body also needs thyroid hormones for proper bone and brain development during pregnancy and infancy.
   # - - What is the definition of Iodine?
   #   - Iodine is a mineral needed by our bodies to make thyroid hormones. These hormones control the body's metabolism and many other important functions. The body also needs thyroid hormones for proper bone and brain development during pregnancy and infancy.
   # - - What is Iron?
   #   - Iron is an important component of hemoglobin, the substance in red blood cells that carries oxygen from your lungs to the rest of your body. Benefits of Iron include general energy and focus, gastrointestinal processes, the immune system, and the regulation of body termperature. These benefits usually go unnoticed until a person is not getting enough of this mineral.
   # - - What does Iron mean?
   #   - Iron is an important component of hemoglobin, the substance in red blood cells that carries oxygen from your lungs to the rest of your body. Benefits of Iron include general energy and focus, gastrointestinal processes, the immune system, and the regulation of body termperature. These benefits usually go unnoticed until a person is not getting enough of this mineral.
-  # - - Define Iron?
-  #   - Iron is an important component of hemoglobin, the substance in red blood cells that carries oxygen from your lungs to the rest of your body. Benefits of Iron include general energy and focus, gastrointestinal processes, the immune system, and the regulation of body termperature. These benefits usually go unnoticed until a person is not getting enough of this mineral.
+  - - Define Iron?
+    - Iron is an important component of hemoglobin, the substance in red blood cells that carries oxygen from your lungs to the rest of your body. Benefits of Iron include general energy and focus, gastrointestinal processes, the immune system, and the regulation of body termperature. These benefits usually go unnoticed until a person is not getting enough of this mineral.
   # - - What is the definition of Iron?
   #   - Iron is an important component of hemoglobin, the substance in red blood cells that carries oxygen from your lungs to the rest of your body. Benefits of Iron include general energy and focus, gastrointestinal processes, the immune system, and the regulation of body termperature. These benefits usually go unnoticed until a person is not getting enough of this mineral.
   # - - What is Zinc?
   #   - Zinc is an important mineral that is found in every cell in your body. It helps your immune system fight off invading bacteria and viruses. Zinc is also critical for growth and development during pregnancy, infancy and childhood. Zinc also has been shown to aid in wounds healing, as well as maintaining a good sence of taste and smell.
   # - - What does Zinc mean?
   #   - Zinc is an important mineral that is found in every cell in your body. It helps your immune system fight off invading bacteria and viruses. Zinc is also critical for growth and development during pregnancy, infancy and childhood. Zinc also has been shown to aid in wounds healing, as well as maintaining a good sence of taste and smell.
-  # - - Define Zinc?
-  #   - Zinc is an important mineral that is found in every cell in your body. It helps your immune system fight off invading bacteria and viruses. Zinc is also critical for growth and development during pregnancy, infancy and childhood. Zinc also has been shown to aid in wounds healing, as well as maintaining a good sence of taste and smell.
+  - - Define Zinc?
+    - Zinc is an important mineral that is found in every cell in your body. It helps your immune system fight off invading bacteria and viruses. Zinc is also critical for growth and development during pregnancy, infancy and childhood. Zinc also has been shown to aid in wounds healing, as well as maintaining a good sence of taste and smell.
   # - - What is the definition of Zinc?
   #   - Zinc is an important mineral that is found in every cell in your body. It helps your immune system fight off invading bacteria and viruses. Zinc is also critical for growth and development during pregnancy, infancy and childhood. Zinc also has been shown to aid in wounds healing, as well as maintaining a good sence of taste and smell.
-  # - - Thank you Nutribot.
-  #   - You're welcome (=
-  # - - Thanks for your help Nutribot.
-  #   - You're welcome (=
-  # - - Thanks Nutribot.
-  #   - You're welcome (=
-  # - - Thanks for your assistance Nutribot!
-  #   - You're welcome (=
+  - - Thank you Nutribot.
+    - You're welcome (=
+  - - Thanks for your help Nutribot.
+    - You're welcome (=
+  - - Thanks Nutribot.
+    - You're welcome (=
+  - - Thanks for your assistance Nutribot!
+    - You're welcome (=
