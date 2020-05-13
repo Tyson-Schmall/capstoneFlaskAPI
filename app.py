@@ -19,7 +19,7 @@ heroku = Heroku(app)
 
 env = Env()
 env.read_env()
-DATBASE_URL = env("DATABASE_URL")
+DATABASE_URL = env("DATABASE_URL")
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 app.config["SQLALCHEMY_DATABASE_URI"] = DATABASE_URL
