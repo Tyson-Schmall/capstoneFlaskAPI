@@ -2,27 +2,27 @@ categories:
   - conversations
 conversations:
   - - Hi Nutribot! How are you today?
-    - I'm well thank you, I hope you are too. Would you like to know what I am capable of?
+    - I'm well thank you, I hope you are too. you can ask me for a list of words I can define, or you can ask me to define a word from that list for you.
   - - Hello how are you today?
-    - I'm well thank you, I hope you are too. Would you like to know what I am capable of?
+    - I'm well thank you, I hope you are too. you can ask me for a list of words I can define, or you can ask me to define a word from that list for you.
   - - How are you today?
-    - I'm well thank you, I hope you are too. Would you like to know what I am capable of?
+    - I'm well thank you, I hope you are too. you can ask me for a list of words I can define, or you can ask me to define a word from that list for you.
   - - how are you today
-    - I'm well thank you, I hope you are too. Would you like to know what I am capable of?
+    - I'm well thank you, I hope you are too. you can ask me for a list of words I can define, or you can ask me to define a word from that list for you.
+  - - Hey Nutribot, hows it going you today?
+    - I'm well thank you, I hope you are too. You can ask me for a list of words I can define, or you can ask me to define a word from that list for you.
   - - Hey Nutribot, how's it going you today?
-    - I'm well thank you, I hope you are too.  Would you like to know what I am capable of?
+    - I'm well thank you, I hope you are too. You can ask me for a list of words I can define, or you can ask me to define a word from that list for you.
   - - Hey Nutribot, how's it going you today?
-    - I'm well thank you, I hope you are too. Would you like to know what I am capable of?
-  - - Hey Nutribot, how's it going you today?
-    - It's going well thank you, I hope you are having a good day. Would you like to know what I am capable of?
+    - It's going well thank you, you can ask me for a list of words I can define, or you can ask me to define a word from that list for you.
   - - What's crackin Nutribot? You doin good today?
-    - Not too much, but I hope you are well. Would you like to know my purpose? Would you like to know what I am capable of?
+    - Not too much, you can ask me for a list of words I can define, or you can ask me to define a word from that list for you.
   - - Hello Nutribot, whaddup?
-    - Not too much, but I hope you are well. Would you like to know my purpose? Would you like to know what I am capable of?
+    - Not too much, you can ask me for a list of words I can define, or you can ask me to define a word from that list for you.
   - - Whaddup Nutribot?
     - I'm well thank you, you can ask me for a list of words I can define, or you can ask me to define a word from that list for you.
   - - Hey Nutribot, what's up?
-    - I'm well thank you, you can ask me for a list of words I can define, or you can ask me to define a word from that list for you.
+    - Not a whole lot, you can ask me for a list of words I can define, or you can ask me to define a word from that list for you.
   - - How are you doing?
     - I'm well thank you, you can ask me for a list of words I can define, or you can ask me to define a word from that list for you.
   - - How's it going?
@@ -53,12 +53,12 @@ conversations:
     - Vitamins and Minerals I can define include Vitamin A, Vitamin B(B1, B2, B3, B5, B6, B7, B12 and Folic-Acid), Vitamin C, Vitamin D, Vitamin E, Vitamin K, Selenium, Potassium, Calcium, Phosphorus, Magnesium, Iodine, Iron, and Zinc.
   - - What words do you know?
     - Vitamins and Minerals I can define include Vitamin A, Vitamin B(B1, B2, B3, B5, B6, B7, B12 and Folic-Acid), Vitamin C, Vitamin D, Vitamin E, Vitamin K, Selenium, Potassium, Calcium, Phosphorus, Magnesium, Iodine, Iron, and Zinc.
-  - - What do you know?
+  - - what can you define
     - Vitamins and Minerals I can define include Vitamin A, Vitamin B(B1, B2, B3, B5, B6, B7, B12 and Folic-Acid), Vitamin C, Vitamin D, Vitamin E, Vitamin K, Selenium, Potassium, Calcium, Phosphorus, Magnesium, Iodine, Iron, and Zinc.
-  - - Can you show me a list of words you know?
+  - - show me a list of words you know?
     - Vitamins and Minerals I am able to define include Vitamin A, Vitamin B(B1, B2, B3, B5, B6, B7, B12 and Folic-Acid), Vitamin C, Vitamin D, Vitamin E, Vitamin K, Selenium, Potassium, Calcium, Phosphorus, Magnesium, Iodine, Iron, and Zinc.
   - - No.
-    - Well, I can't help you if you have nothing you need help with.
+    - Well, I can't help you if you have nothing you need help with. Do you want to see a list of words I know? Or do you want me to define a word related to Vitamins and Minerals?
   - - Can we just have a conversation?
     - No we cannot, I apologize for any inconvenience. Did you need a Vitamin or Mineral defined?
   - - Define Vitamins?
@@ -70,7 +70,13 @@ conversations:
   - - Define Vitamin?
     - A Vitamin, or Vitamins, are any group of organic compounds which are essential for normal growth and nutrition. These are required in small quantities in your diet, because they cannot be synthesized in our bodies.
   - - Define Mineral?
+    - Mineral(s) are elements in foods that our bodies need to function properly. They are essential for health.
   - - Define Minerals?
+    - Mineral(s) are elements in foods that our bodies need to function properly. They are essential for health.
+  - - Show me a list of minerals
+    - Minerals I can define include calcium, phosphorus, potassium, magnesium, iron, iodine, and zinc.
+  - - Show me a list of vitamins
+    - Vitamins I can define include Vitamin A, Vitamin B1, B2, B3, B5, B6, B7, B12, folic acid, Vitamin C, Vitamin D, Vitamin E, and Vitamin K.
   # - - What are Minerals?
   # - - What is a Mineral?
   # - - Vitamins or Minerals?
@@ -184,13 +190,7 @@ conversations:
     - Vitamin K plays a crucial role in your bone metabolism, blood clotting, and regulating blood calcium levels. The body needs Vitamin K to produce a protein and clotting factor, called Prothrombin. This is waht is important for blood clotting and your bone metabolism.
   # - - What is the definition of Vitamin K?
   #   - Vitamin K plays a crucial role in your bone metabolism, blood clotting, and regulating blood calcium levels. The body needs Vitamin K to produce a protein and clotting factor, called Prothrombin. This is waht is important for blood clotting and your bone metabolism.
-  # - - What is Selenium ?
-  #   - Selenium is an essential trace-mineral that is important for many bodily processes, including cognitive funciton, a healthy immune system, and fertility in both men and women.
-  # - - What does Selenium mean?
-  #   - Selenium is an essential trace-mineral that is important for many bodily processes, including cognitive funciton, a healthy immune system, and fertility in both men and women.
-  - - Define Selenium ?
-    - Selenium is an essential trace-mineral that is important for many bodily processes, including cognitive funciton, a healthy immune system, and fertility in both men and women.
-  # - - What is the definition of Selenium?
+  # - - What is  ?
   #   - Selenium is an essential trace-mineral that is important for many bodily processes, including cognitive funciton, a healthy immune system, and fertility in both men and women.
   # - - What is Potassium?
   #   - Potassium is a mineral that your body needs to function properly. It is a type of electrolyte that helps your nerves to function, and your muscles to contract. It aids in regulating your heartbeat, and moves nutrients into cells while moving waste out of them. Healthy levels of Potassium can aid in offsetting some of Sodium's harmful side effects like blood pressure.
@@ -205,7 +205,7 @@ conversations:
   # - - What does Calcium mean?
   #   - Much like Vitamin D, Calcium is needed to build and maintain strong bones. your heart, muscles and nerves also need calcium to function properly. It also has been show to enable our blood to clot. About 99% of all the Calcium in our bodiy, is in our bones and our teeth.
   - - Define Calcium?
-    - Much like Vitamin D, Calcium is needed to build and maintain strong bones. your heart, muscles and nerves also need calcium to function properly. It also has been show to enable our blood to clot. About 99% of all the Calcium in our bodiy, is in our bones and our teeth.
+    - Calcium is needed to build and maintain strong bones. your heart, muscles and nerves also need calcium to function properly. It also has been show to enable our blood to clot. About 99% of all the Calcium in our bodiy, is in our bones and our teeth.
   # - - What is the definition of Calcium?
   #   - Much like Vitamin D, Calcium is needed to build and maintain strong bones. your heart, muscles and nerves also need calcium to function properly. It also has been show to enable our blood to clot. About 99% of all the Calcium in our bodiy, is in our bones and our teeth.
   # - - What is Phosphorus?
@@ -250,9 +250,9 @@ conversations:
   #   - Zinc is an important mineral that is found in every cell in your body. It helps your immune system fight off invading bacteria and viruses. Zinc is also critical for growth and development during pregnancy, infancy and childhood. Zinc also has been shown to aid in wounds healing, as well as maintaining a good sence of taste and smell.
   - - Thank you Nutribot.
     - You're welcome (=
-  - - Thanks for your help Nutribot.
+  - - thank you
     - You're welcome (=
-  - - Thanks Nutribot.
+  - - Thanks
     - You're welcome (=
-  - - Thanks for your assistance Nutribot!
+  - - thanks
     - You're welcome (=

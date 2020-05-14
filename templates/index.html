@@ -5,10 +5,10 @@
     <style>
       body {
         font-family: monospace;
-        background-color: #E0F2E9;
+        background-color: #e0f2e9;
       }
       h1 {
-        background-color: #31672E;
+        background-color: #31672e;
         color: white;
         display: inline-block;
         font-size: 3em;
@@ -21,39 +21,22 @@
         width: 80px;
         margin-top: 5px;
       }
+      .box {
+        border: 2px solid black;
+        border-radius: 10px;
+      }
+      .boxed {
+        margin-left: auto;
+        margin-right: auto;
+        width: 78%;
+        margin-top: 60px;
+        border: 1px solid transparent;
+      }
       #chatbox {
         margin-left: auto;
         margin-right: auto;
         width: 40%;
         margin-top: 60px;
-      }
-      #userInput {
-        margin-left: auto;
-        margin-right: auto;
-        width: 40%;
-        margin-top: 60px;
-        text-decoration: none;
-      }
-      #textInput {
-        width: 90%;
-        border: 1px solid transparent;
-        border-bottom: 2px solid black;
-        font-family: monospace;
-        font-size: 17px;
-      }
-      .userText {
-        color: white;
-        border: 1px solid transparent;
-        border-radius: 2px;
-        font-family: monospace;
-        font-size: 17px;
-        text-align: right;
-        line-height: 30px;
-      }
-      .userText span {
-        background-color: #5A6E58;
-        padding: 10px;
-        border-radius: 10px;
       }
       .botText {
         color: white;
@@ -66,49 +49,125 @@
         padding: 10px;
         border-radius: 10px;
       }
-      .boxed {
+      #userInput {
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        margin-top: 60px;
+        text-decoration: none;
+      }
+      #textInput {
+        width: 90%;
+        border: 1px solid transparent;
+        border-bottom: 2px solid black;
+        background-color: #e0f2e9;
+        font-family: monospace;
+        font-size: 17px;
+      }
+      #textInput:focus::placeholder {
+        color: transparent;
+      }
+      .userText {
+        color: white;
+        border: 1px solid transparent;
+        border-radius: 2px;
+        font-family: monospace;
+        font-size: 17px;
+        text-align: right;
+        line-height: 30px;
+      }
+      .userText span {
+        background-color: #5a6e58;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      /* h1 {
+        background-color: #31672e;
+        color: white;
+        display: inline-block;
+        font-size: 3em;
+        margin: 0;
+        padding: 14px;
+      }
+      h1 img {
+        border-radius: 50%;
+        height: 90px;
+        width: 80px;
+        margin-top: 5px;
+      } */
+      /* #chatbox {
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        margin-top: 60px;
+      } */
+      /* .botText {
+        color: white;
+        font-family: monospace;
+        font-size: 17px;
+        text-align: left;
+        line-height: 30px;
+      } */
+      /* .botText span {
+        padding: 10px;
+        border-radius: 10px;
+      } */
+      /* .boxed {
         margin-left: auto;
         margin-right: auto;
         width: 78%;
         margin-top: 60px;
         border: 1px solid transparent;
-      }
-      .box {
+      } */
+      /* .box {
         border: 2px solid black;
         border-radius: 10px;
-      }
-    </style>
+      } */
     </style>
   </head>
   <body>
     <center>
       <h1>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQzfhGJOz4NSGO6x8EB4gto4KYKIfRdE_o2qOTQF8ZGCgDvUfeO&usqp=CAU"
-          />Your personal Nutribot
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQzfhGJOz4NSGO6x8EB4gto4KYKIfRdE_o2qOTQF8ZGCgDvUfeO&usqp=CAU"
+        />Nutribot
       </h1>
     </center>
     <div class="box"></div>
-      <div class="boxed">
-        <div>
-          <div id="chatbox">
-            <p class="botText"><span>Hi (: I am your personal Nutribot</span></p>
-          </div>
+    <div class="boxed">
+      <div>
+        <div id="chatbox">
+          <p class="botText"><span>Hi (: I am your personal Nutribot</span></p>
+        </div>
 
-          <div id="userInput">
-            <input
-              id="textInput"
-              type="text"
-              name="msg"
-              placeholder="Ask me how I'm doing (:"
-            />
-            
-          <input id="buttonInput" type="submit" value="Send" style="border: 1px solid transparent; border-radius: 3px; font-size: 1.10em; background-color: #5A6E58; color: white; text-decoration: underline;" />
+        <div id="userInput">
+          <input
+            id="textInput"
+            type="text"
+            name="msg"
+            placeholder="Ask me how I'm doing (:"
+          />
+
+          <input
+            id="buttonInput"
+            type="submit"
+            value="Send"
+            style="
+              border: 1px solid transparent;
+              border-radius: 3px;
+              font-size: 1.1em;
+              background-color: #5a6e58;
+              color: white;
+              text-decoration: underline;
+            "
+          />
         </div>
 
         <script>
           function getBotResponse() {
             var rawText = $("#textInput").val();
-            var userHtml = '<p class="userText"><span>' + rawText + "</span></p>";
+            var userHtml =
+              '<p class="userText"><span>' + rawText + "</span></p>";
             $("#textInput").val("");
             $("#chatbox").append(userHtml);
             document
