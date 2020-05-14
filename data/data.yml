@@ -1,10 +1,10 @@
 categories:
   - conversations
 conversations:
-  - - Hi Nutribot! How are you today?
-    - I'm well thank you, I hope you are too. you can ask me for a list of words I can define, or you can ask me to define a word from that list for you.
-  - - Hello how are you today?
-    - I'm well thank you, I hope you are too. you can ask me for a list of words I can define, or you can ask me to define a word from that list for you.
+  # - - Hi Nutribot! How are you today?
+  #   - I'm well thank you, I hope you are too. you can ask me for a list of words I can define, or you can ask me to define a word from that list for you.
+  # - - Hello how are you today?
+  #   - I'm well thank you, I hope you are too. you can ask me for a list of words I can define, or you can ask me to define a word from that list for you.
   - - How are you today?
     - I'm well thank you, I hope you are too. you can ask me for a list of words I can define, or you can ask me to define a word from that list for you.
   - - how are you today

@@ -17,6 +17,7 @@ environs = "*"
 chatterbot = "==1.0.1"
 pytz = "*"
 psycopg2 = "*"
+sqlalchemy = "*"
 
 [requires]
 python_version = "3.8"

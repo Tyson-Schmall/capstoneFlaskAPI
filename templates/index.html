@@ -8,8 +8,7 @@
         background-color: #e0f2e9;
       }
       h1 {
-        background-color: #31672e;
-        color: white;
+        color: #52796f;
         display: inline-block;
         font-size: 3em;
         margin: 0;
@@ -39,9 +38,10 @@
         margin-top: 60px;
       }
       .botText {
-        color: white;
+        color: #2f3e46;
         font-family: monospace;
         font-size: 17px;
+        font-weight: 600;
         text-align: left;
         line-height: 30px;
       }
@@ -56,6 +56,9 @@
         margin-top: 60px;
         text-decoration: none;
       }
+      #userInput input:focus {
+        outline: none;
+      }
       #textInput {
         width: 90%;
         border: 1px solid transparent;
@@ -63,6 +66,9 @@
         background-color: #e0f2e9;
         font-family: monospace;
         font-size: 17px;
+      }
+      #textInput input:focus {
+        outline: none;
       }
       .userText {
         color: white;
@@ -78,48 +84,6 @@
         padding: 10px;
         border-radius: 10px;
       }
-      /* h1 {
-        background-color: #31672e;
-        color: white;
-        display: inline-block;
-        font-size: 3em;
-        margin: 0;
-        padding: 14px;
-      }
-      h1 img {
-        border-radius: 50%;
-        height: 90px;
-        width: 80px;
-        margin-top: 5px;
-      } */
-      /* #chatbox {
-        margin-left: auto;
-        margin-right: auto;
-        width: 40%;
-        margin-top: 60px;
-      } */
-      /* .botText {
-        color: white;
-        font-family: monospace;
-        font-size: 17px;
-        text-align: left;
-        line-height: 30px;
-      } */
-      /* .botText span {
-        padding: 10px;
-        border-radius: 10px;
-      } */
-      /* .boxed {
-        margin-left: auto;
-        margin-right: auto;
-        width: 78%;
-        margin-top: 60px;
-        border: 1px solid transparent;
-      } */
-      /* .box {
-        border: 2px solid black;
-        border-radius: 10px;
-      } */
     </style>
   </head>
   <body>
@@ -134,7 +98,13 @@
     <div class="boxed">
       <div>
         <div id="chatbox">
-          <p class="botText"><span>Hi (: I am your personal Nutribot</span></p>
+          <p class="botText">
+            <span
+              >Hello! I can define many different Vitamins and Minerals. Ask me
+              for a list of words I know, or simply say 'define' followed by a
+              word from the list.</span
+            >
+          </p>
         </div>
 
         <div id="userInput">
